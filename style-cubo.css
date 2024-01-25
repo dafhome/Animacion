@@ -1,0 +1,47 @@
+body{
+
+    margin: 2vw;
+
+}
+
+.cubo{
+    transition: 5s ease-in-out;
+
+    height: 200px;
+    width: 200px;
+    background-color: steelblue;
+    border-style: solid;
+    border-color: crimson;
+    border-width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.centro{
+
+    background-color:steelblue ;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    transition: 5s ease-in-out;
+
+}
+
+.cubo:hover{
+
+    border-radius: 50%;
+
+    background-color: crimson; 
+    transform: translate(500px);
+    border-style: solid;
+    border-color: steelblue;
+    border-width: 80px;
+    transition: 5s ease-in-out;
+    .centro{
+        background-color: yellow;
+        border-radius: 50%;
+        transition: 5s ease-in-out;
+    }
+
+}

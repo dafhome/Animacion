@@ -1,0 +1,63 @@
+/* .zonapelota{
+
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    align-items:first end;
+} */
+
+.pelota{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    animation: bote 1s alternate infinite ease-in;
+}
+
+.sombra{
+    width: 100px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.706);
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.708);
+    border-radius: 10px;
+    position: absolute;
+    top: 1000px;
+    margin-left: 100px;
+    opacity: 100%;
+    scale: 50%;
+    animation: sombra 1s alternate infinite ease-in;
+}
+
+@keyframes bote{
+
+   
+    85%{
+
+        transform: 
+        translateX(24px)
+        translateY(500px);
+        height: 240px;
+
+    }
+
+    100%{
+        transform: 
+        translateX(30px)
+        translateY(600px);
+        height: 160px;
+    }   
+
+}
+
+@keyframes sombra{
+
+        100%{
+            scale: 100%;
+            translate(0px 10px) ;
+     
+        }
+
+
+}
