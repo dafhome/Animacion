@@ -1,11 +1,3 @@
-/* .zonapelota{
-
-    height: 500px;
-    padding: 50px;
-    display: flex;
-    align-items:first end;
-} */
-
 .pelota{
     height: 250px;
     width: 250px;
@@ -25,7 +17,7 @@
     position: absolute;
     top: 1000px;
     margin-left: 100px;
-    opacity: 100%;
+    opacity: 0.8;
     scale: 50%;
     animation: sombra 1s alternate infinite ease-in;
 }
