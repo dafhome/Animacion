@@ -50,9 +50,9 @@
 
 }
 
-@keyframes sombra{
-    100%{          
-        scale: 100%;
-        translate (0px, 10px);
+@keyframes sombra {
+    100% {
+        transform: 
+        translateX(5px)
+        scale(2.5);
     }
-}
