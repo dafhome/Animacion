@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+}
+section{
+    background-color: #FFAE00;
+    height: 100vw;
+    /* margin-top: 2%; */
+    /* margin-bottom: 2%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+
+.titulo{
+    margin-top: 5%;
+    font-size: 130px;
+    font-family: 'Honk', system-ui;
+}
+.texto-oferta1{
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.texto-oferta2{
+    font-size: 180px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.precio{
+    font-size: 90px;
+    font-family: 'Anton', sans-serif;
+    color: red;
+    text-align: center;
+}
+p{
+    color: white;
+}
+
+/* font-family: 'Workbench', sans-serif; */
